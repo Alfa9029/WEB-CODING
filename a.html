@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <style>
+        legend {background: gold; padding: 2px; font-size: 12px;}
+        fieldset{margin: 10px; border: 1px solid gray}
+        input[type="text"]{font-size: 20px; color: blue; border: 2px blue solid;}
+    </style>
+    
+    
+    <form action="processar.html">
+        
+        <fieldset>
+        
+        <legend>Dados Pessoais</legend>
+        <label>Nome:</label>
+        <input type="text" placeholder="digite seu nome" required>
+        <!--<input type="number">-->
+        <input type="password">
+        <input type="date">
+        <!--<input type="color">-->
+        <!--<input type="range">-->
+        <input type="email" placeholder="digite seu email">
+        
+        <!--<input type="submit">-->
+        
+        </fieldset>
+
+        <fieldset>
+            <legend>Formação</legend>
+            <select>
+                <option>Escolha uma opção</option>
+                <option>Ensino Médio</option>
+                <option>Graduação</option>
+                <option>Mestrado</option>
+            </select>
+            <br>
+            <input type="checkbox">
+            Fiz um curso nos últimos 03 meses.
+            <hr>
+            Qual curso você fez no último ano ?
+            <input type="radio" name="curso">FIGMA
+            <input type="radio" name="curso">PHP
+            <input type="radio" name="curso">CSS
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
